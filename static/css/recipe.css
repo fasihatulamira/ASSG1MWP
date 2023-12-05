@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    background-image: url('/static/images/silverware.jpg');
+    /* Extra feature #1 */
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+
+
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+    /* Extra feature #4 */
+}
+
+
+a {
+    color: #A4A400;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted #A4A400;
+    cursor: help;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+pre {
+    font-family: monospace;
+    white-space: pre-wrap;
+
+}
+
+/* Extra feature #5 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: inline;
+    background-clip: text;
+    color: #A4A400;
+}
+
+/* Extra feature #3 */
+ul {
+    list-style-image: url('/static/images/pie_bullet.png');
+}
+
+/* Extra feature #2 */
+link[rel="icon"] {
+    background-image: url('static/images/pie-icon.png');
+}
+
+.quote {
+    font-style: italic;
+    background-color: #FFFFA8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 60px;
+
+}
+
+.quote strong {
+    font-weight: bold;
+}
+
+
+.links a {
+    text-decoration: underline;
+    color: #A4A400;
+
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
